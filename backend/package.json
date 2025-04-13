@@ -1,0 +1,36 @@
+{
+  "name": "CollabOne",
+  "version": "1.0.0",
+  "description": "tinder for dev",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [
+    "node.js",
+    "javascript"
+  ],
+  "author": "Alok Singh",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-ses": "^3.782.0",
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "cron": "^4.1.4",
+    "crypto-js": "^4.2.0",
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-cookie": "^4.17.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.4",
+    "mongoose-validator": "^2.1.0",
+    "node-cron": "^3.0.3",
+    "socket.io": "^4.8.1",
+    "validator": "^13.12.0"
+  }
+  
+}

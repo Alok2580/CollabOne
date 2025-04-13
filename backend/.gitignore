@@ -1,0 +1,4 @@
+node_modules
+.cpp
+.cph
+.env
